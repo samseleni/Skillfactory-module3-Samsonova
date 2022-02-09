@@ -1,0 +1,102 @@
+body {
+    font-family: Nunito, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    height: 60px;
+    background-color: black;
+}
+
+.nav-link {
+    padding: 7px;
+    margin: 0px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(223, 214, 197);
+    cursor: pointer;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-link:hover {
+    background-color: rgb(223, 214, 197);
+    color:black;
+}
+
+.photo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px;
+    margin: 0;
+    border-top: double 3px;
+    border-bottom: double 3px;
+    background-color: rgb(223, 214, 197);
+}
+
+.photo {
+    margin-left: 100px;
+    border: solid 1px black;
+    padding: 1px;
+}
+
+.title-container {
+    margin-left: 250px;
+    padding: 20px;
+    border-top: 2px solid rgb(87, 84, 75);
+    border-bottom: 2px solid rgb(87, 84, 75);
+    text-align: center;
+}
+.title {
+    color:rgb(87, 84, 75);
+    font-size: 30px;
+    font-family: Lora, 'Times New Roman', Times, serif;
+}
+
+.p-photo {
+    color:rgb(87, 84, 75);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.sub-title {
+    color: rgb(87, 84, 75);
+    margin-top: 40px;
+    border-left: 8px solid rgba(36, 107, 82, 0.5); 
+    padding-left: 10px;
+    font-family: Lora, 'Times New Roman', Times, serif;
+}
+
+.footer {
+    margin-top: 40px;
+    border-top: double 3px;
+    background-color: rgb(223, 214, 197);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contacts-h2 {
+    color: rgb(87, 84, 75);
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0px 30px 0px 10px;
+}
+
+.contacts-item {
+    display: flex;
+    align-items: center;
+}
+
+.contacts-img {
+    margin-right: 10px;
+}
+
+a[href="https://vk.com/id48832477"] {
+    color:black;
+}
